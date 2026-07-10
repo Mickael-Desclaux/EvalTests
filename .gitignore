@@ -3,3 +3,8 @@ server/package-lock.json
 client/node_modules
 client/package-lock.json
 **/.env
+
+# Cypress
+client/cypress/screenshots
+client/cypress/videos
+client/cypress/downloads
