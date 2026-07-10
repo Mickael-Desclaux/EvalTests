@@ -1,1 +1,6 @@
-J'ai changé le port de postgres sur le 5433 (mon 5432 était déjà occupé)
+- J'ai changé le port de postgres sur le 5433 (mon 5432 était déjà occupé)
+- J'ai utilisé la lib MSW que je voulais essayer pour les tests afin d'exécuter de vraies requêtes HTTP et les intercepter au lieu de mocker Axios
+- Les fichiers d'environnement (`.env`, `.env.test`) ne sont pas versionnés. J'ai fourni des modèles à copier :
+  - `cp server/.env.example server/.env`
+  - `cp server/.env.test.example server/.env.test`
+  - `cp client/.env.example client/.env`

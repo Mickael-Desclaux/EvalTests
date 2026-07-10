@@ -2,7 +2,10 @@ server/node_modules
 server/package-lock.json
 client/node_modules
 client/package-lock.json
+# Fichiers d'environnement (on versionne uniquement les *.example)
 **/.env
+**/.env.*
+!**/.env*.example
 
 # Cypress
 client/cypress/screenshots
